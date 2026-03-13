@@ -1,6 +1,9 @@
 src/main/resources/application.properties
 *.mv.db
 *.trace.db
+.gradle/
+*.gradle
+gradle/
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
