@@ -19,11 +19,11 @@ public class ChatService {
     private final ChatRepository chatRepository;
     private final RestTemplate restTemplate;
 
-    @Value("${groq.api.key}")
-    private String groqApiKey;
+  @Value("${GROQ_API_KEY}")
+private String groqApiKey;
 
-    @Value("${groq.api.url}")
-    private String groqApiUrl;
+@Value("${GROQ_API_URL}")
+private String groqApiUrl;
 
     public ChatService(ChatRepository chatRepository) {
         this.chatRepository = chatRepository;
